@@ -1,3 +1,26 @@
+## neo_local_planner (noetic) - 1.0.1-1
+
+The packages in the `neo_local_planner` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic neo_local_planner --edit` on `Tue, 08 Jun 2021 14:55:25 -0000`
+
+The `neo_local_planner` package was released.
+
+Version of package(s) in repository `neo_local_planner`:
+
+- upstream repository: https://github.com/neobotix/neo_local_planner.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## neo_local_planner (melodic) - 1.0.0-1
 
 The packages in the `neo_local_planner` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic neo_local_planner --edit` on `Mon, 17 Aug 2020 11:45:15 -0000`
