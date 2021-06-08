@@ -1,0 +1,13 @@
+Source: ros-noetic-neo-local-planner
+Section: misc
+Priority: optional
+Maintainer: Neobotix GmbH <ros@neobotix.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-base-local-planner, ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-costmap-2d, ros-noetic-dynamic-reconfigure, ros-noetic-nav-core, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros, ros-noetic-tf2-sensor-msgs
+Homepage: http://wiki.ros.org/base_local_planner
+Standards-Version: 3.9.2
+
+Package: ros-noetic-neo-local-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-base-local-planner, ros-noetic-costmap-2d, ros-noetic-dynamic-reconfigure, ros-noetic-nav-core, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros, ros-noetic-tf2-sensor-msgs
+Description: This package provides a spline based implementation to local robot navigation on a plane.
+ This package's ROS wrapper adheres to the BaseLocalPlanner interface specified in the nav_core package.
